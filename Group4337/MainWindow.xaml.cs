@@ -6,5 +6,11 @@ namespace Group4337
     {
         public MainWindow()
             => InitializeComponent();
+
+        private void _4337_Titova_Click(object sender, RoutedEventArgs e)
+        {
+            _4337_Titova infoWindow = new _4337_Titova();
+            infoWindow.ShowDialog();
+        }
     }
 }

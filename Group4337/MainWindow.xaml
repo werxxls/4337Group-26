@@ -49,11 +49,7 @@
                     <RowDefinition />
                     <RowDefinition />
                 </Grid.RowDefinitions>
-
-                <!-- Места для добавления элементов управления -->
-
-                <!---->
-
+                <Button x:Name="_4337_Titova" Grid.Row="20" Content="ИНФОРМАЦИЯ ОБ АВТОРЕ" Click="_4337_Titova_Click" />
             </Grid>
         </Grid>
     </Grid>
