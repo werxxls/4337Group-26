@@ -23,12 +23,33 @@
                        FontSize="16" 
                        Margin="0,0,0,10"/>
 
-                <Button Content="Закрыть" 
+                <Button Content="Импорт данных" 
                     HorizontalAlignment="Center" 
-                    Width="100" 
+                    Width="170" 
+                    Background="LightPink"
+                    FontSize="20"
                     Height="30"
                     Margin="0,20,0,0"
-                    Click="CloseButton_Click"/>
+                    Click="ImportButton_Click"/>
+
+                <Button Content="Экспорт данных" 
+                     HorizontalAlignment="Center" 
+                     Width="170" 
+                     Background="LightGreen"
+                     FontSize="20"
+                     Height="30"
+                     Margin="0,20,0,0"
+                     Click="ExportButton_Click"/>
+
+                <Button Content="Закрыть" 
+                     HorizontalAlignment="Center" 
+                     Width="150" 
+                     Background="Red"
+                     FontSize="25"
+                     Height="60"
+                     Margin="0,100,0,0"
+                     Click="CloseButton_Click"/>
+
             </StackPanel>
         </Grid>
     </Grid>
